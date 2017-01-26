@@ -19,15 +19,12 @@ operations, floating point numbers
 7. Java selections: if, if-else, switch-case. Programs with selections.
 8. Java repetitions and jumps: while, do-while, and for loops, break, continue, exit,
 and return. Use of menus and sentinel loops.
-9. Methods and their arguments. Local and global variables. The concept of scope.
-The concept of method overloading.
-10. Arrays and array operations: search, sort, reduction, compression, expansion.
-Basic multi-dimensional arrays.
+9. Methods and their arguments. Local and global variables. The concept of scope. The concept of method overloading.
+10. Arrays and array operations: search, sort, reduction, compression, expansion. Basic multi-dimensional arrays.
 11. Java strings and text I/O.
 12. Files: file streams, file open and close operations, reading from files and
 writing into files.
-13. Classes and processing of objects: constructors, private and public
-objects, data initialization, and class member functions. Problem solving techniques.
+13. Classes and processing of objects: constructors, private and public objects, data initialization, and class member functions. Problem solving techniques.
 14. Programming problems with classes and files.
 15. Sample algorithms: linear search, binary search, simple sorting algorithms
 16. Simple GUI programming. 
