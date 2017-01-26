@@ -8,6 +8,8 @@ programming.
 ## Topics
 
 Main topics include the following:
+1. Hello
+2. World
 1. Data types: unsigned integers, signed integers, real numbers, and alphanumeric
 characters.
 2. Number systems and binary coding: unsigned and signed integers, integer
