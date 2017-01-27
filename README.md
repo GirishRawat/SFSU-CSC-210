@@ -1,4 +1,4 @@
-# SFSU - *CS 210*
+# SFSU - *CSC 210*
 
 **CSC 210** is the first programming course in the CS program for students who have no
 programming experience. Design, implementation, testing, debugging, maintenance, and documentation of
