@@ -3,6 +3,17 @@ public class gpa {
   public static void main(String[] args) {
     Scanner reader = new Scanner(System.in);
     int numberOfClasses;
+    double aPlus = 4.00
+    double aMinus = 3.70
+    double bPlus = 3.33
+    double b = 3.00
+    double bMinus = 2.70
+    double cPlus = 2.30
+    double c = 2.00
+    double cMinus = 1.70
+    double dPlus = 1.30
+    double d = 1.00
+    double dMinus = 0.70
 
     // Ask for number of classes  
     System.out.println("How many classes did you take?");
@@ -15,5 +26,7 @@ public class gpa {
       System.out.println("How many classes did you take?");
       numberOfClasses = reader.nextInt();
     } 
+
+
   } 
 }
