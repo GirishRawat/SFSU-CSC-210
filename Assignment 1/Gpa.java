@@ -1,4 +1,4 @@
-import java.util.scanner
+import java.util.Scanner;
 public class gpa {
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);
