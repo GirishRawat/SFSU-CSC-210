@@ -1,6 +1,6 @@
 # CSC 210 *Assignment 1*
 
-**Write a program that calculates the GPA based on 4 courses. **
+**Write a program that calculates the GPA based on 4 courses.**
 You can use the following criteria:
 * A = 4.00 grade points
 * A- = 3.70 grade points
