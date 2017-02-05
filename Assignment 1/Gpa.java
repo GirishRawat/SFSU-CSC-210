@@ -65,7 +65,10 @@ public class gpa {
       }
     }
 
-
+    // Print Report 
+    for (int it = 0; it < numberOfClasses; it++) {
+      System.out.println("You earned a " + grades[it] + " in Course #" + (it+1));
+    }
 
     // Calculate and print GPA
     System.out.println("\nYour GPA is " + totalPoints + " / " + numberOfClasses + " = " + (totalPoints/numberOfClasses));
