@@ -28,11 +28,19 @@ public class gpa {
       numberOfClasses = reader.nextInt();
     } 
 
-    // Asking for users' grades
+    // Ask for users' grades
+    System.out.println("\nAccepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
+
     for (int it = 0; it < numberOfClasses; it++) {
       System.out.println("Enter grade for Class #" + (it+1));
-      System.out.println("Accepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
-      grades[it] = reader.next();
+      String gradeInput = reader.next();
+
+      // // Check if gradeInput is a valid input
+      // while (gradeInput != "A" || gradeInput != "A-") {
+      //   System.out.println("\nPlease enter a valid input. Accepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
+      //   System.out.println("Enter grade for Class #" + (it+1));
+      //   gradeInput = reader.next();
+      // }
     }
   } 
 }
