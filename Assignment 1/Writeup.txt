@@ -1,0 +1,13 @@
+# CSC 210 *Assignment 1
+
+## How the program runs:
+* Asks for number of classes the user took
+* Checks if the classes are inclusive of [4,7]
+* Ask for grades for all the classes
+  * Converts all the grades entered to upper case 
+  * Checks if the grade entered is valid
+* Reports all the grades back to user
+* Prints the total points scored and the GPA
+
+## Challenges I faced:
+* Was trying to while-loop while checking if the grade entered is valid or not. Would have been a very lengthy condition to check. Used switch statement instead. 
