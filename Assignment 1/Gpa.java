@@ -24,12 +24,6 @@ public class gpa {
     outerLoop: for (int it = 0; it < numberOfClasses; it++) {
       System.out.println("Enter grade for Class #" + (it+1));
       String gradeInput = reader.next();
-      // // Check if gradeInput is a valid input
-      // while (gradeInput != "A" || gradeInput != "A-") {
-      //   System.out.println("\nPlease enter a valid input. Accepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
-      //   System.out.println("Enter grade for Class #" + (it+1));
-      //   gradeInput = reader.next();
-      // }
       String uppercaseGrade = gradeInput.toUpperCase();
 
       switch (uppercaseGrade) {
@@ -72,5 +66,7 @@ public class gpa {
       }
     }
 
+    // Calculate and print GPA
+    System.out.println("\nYour GPA is " + totalPoints + " / " + numberOfClasses + " = " + (totalPoints/numberOfClasses));
   } 
 }
