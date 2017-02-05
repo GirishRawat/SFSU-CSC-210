@@ -3,18 +3,8 @@ public class gpa {
   public static void main(String[] args) {
     Scanner reader = new Scanner(System.in);
     int numberOfClasses;
-    double aPlus = 4.00;
-    double aMinus = 3.70;
-    double bPlus = 3.33;
-    double b = 3.00;
-    double bMinus = 2.70;
-    double cPlus = 2.30;
-    double c = 2.00;
-    double cMinus = 1.70;
-    double dPlus = 1.30;
-    double d = 1.00;
-    double dMinus = 0.70;
     String[] grades = new String[7];
+    double totalPoints = 0;
 
     // Ask for number of classes  
     System.out.println("How many classes did you take?");
@@ -31,17 +21,23 @@ public class gpa {
     // Ask for users' grades
     System.out.println("\nAccepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
 
-    for (int it = 0; it < numberOfClasses; it++) {
+    outerLoop: for (int it = 0; it < numberOfClasses; it++) {
       System.out.println("Enter grade for Class #" + (it+1));
-      grades[it] = reader.next();
-      // grades[it] = gradeInput; 
+      String gradeInput = reader.next();
       // // Check if gradeInput is a valid input
       // while (gradeInput != "A" || gradeInput != "A-") {
       //   System.out.println("\nPlease enter a valid input. Accepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
       //   System.out.println("Enter grade for Class #" + (it+1));
       //   gradeInput = reader.next();
       // }
-      System.out.println(grades[it]);
+      switch (gradeInput) {
+        case "A":
+          totalPoints += 4.00;
+          break;
+        default: 
+          System.out.println("You entered an invalid input. Please try again.");
+          break outerLoop;
+      }
     }
 
   } 
