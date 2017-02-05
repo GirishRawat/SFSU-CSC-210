@@ -23,10 +23,9 @@ public class gpa {
 
     outerLoop: for (int it = 0; it < numberOfClasses; it++) {
       System.out.println("Enter grade for Class #" + (it+1));
-      String gradeInput = reader.next();
-      String uppercaseGrade = gradeInput.toUpperCase();
+      grades[it] = reader.next().toUpperCase();
 
-      switch (uppercaseGrade) {
+      switch (grades[it]) {
         case "A":
           totalPoints += 4.00;
           break;  
@@ -65,6 +64,8 @@ public class gpa {
           break outerLoop;
       }
     }
+
+
 
     // Calculate and print GPA
     System.out.println("\nYour GPA is " + totalPoints + " / " + numberOfClasses + " = " + (totalPoints/numberOfClasses));
