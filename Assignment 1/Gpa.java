@@ -30,9 +30,41 @@ public class gpa {
       //   System.out.println("Enter grade for Class #" + (it+1));
       //   gradeInput = reader.next();
       // }
-      switch (gradeInput) {
+      String uppercaseGrade = gradeInput.toUpperCase();
+
+      switch (uppercaseGrade) {
         case "A":
           totalPoints += 4.00;
+          break;  
+        case "A-":
+          totalPoints += 3.70;
+          break;
+        case "B+":
+          totalPoints += 3.33;
+          break;
+        case "B":
+          totalPoints += 3.00;
+          break;
+        case "B-":
+          totalPoints += 2.70;
+          break;
+        case "C+":
+          totalPoints += 2.30;
+          break;
+        case "C":
+          totalPoints += 2.00;
+          break;
+        case "C-":
+          totalPoints += 1.70;
+          break;
+        case "D+":
+          totalPoints += 1.30;
+          break;
+        case "D":
+          totalPoints += 1.00;
+          break;
+        case "D-":
+          totalPoints += 0.70;
           break;
         default: 
           System.out.println("You entered an invalid input. Please try again.");
