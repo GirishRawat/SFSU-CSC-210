@@ -33,14 +33,16 @@ public class gpa {
 
     for (int it = 0; it < numberOfClasses; it++) {
       System.out.println("Enter grade for Class #" + (it+1));
-      String gradeInput = reader.next();
-
+      grades[it] = reader.next();
+      // grades[it] = gradeInput; 
       // // Check if gradeInput is a valid input
       // while (gradeInput != "A" || gradeInput != "A-") {
       //   System.out.println("\nPlease enter a valid input. Accepted inputs: A, A-, B+, B, B-, C+, C, C-, D+, D, D-");
       //   System.out.println("Enter grade for Class #" + (it+1));
       //   gradeInput = reader.next();
       // }
+      System.out.println(grades[it]);
     }
+
   } 
 }
