@@ -33,11 +33,18 @@ public class Quiz {
         System.out.println("Ooops, that's not less than 15!");
       }
     }
-    //while(true) {
+    while(true) {
+      System.out.println("Give me a number between 6 and 9");
+      in2 = reader.nextInt();
+
+      if(in2>6 && in2<9) {
+        break;
+      } else {
+        System.out.println("Ooops, that's not a number between 6 and 9");
+      }
+    }
+    while(true) {
       
-    //}
-    //while(true) {
-      
-    //}
+    }
 	}
 }
