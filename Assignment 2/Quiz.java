@@ -40,11 +40,19 @@ public class Quiz {
       if(in2>6 && in2<9) {
         break;
       } else {
-        System.out.println("Ooops, that's not a number between 6 and 9");
+        System.out.println("Ooops, that's not a number between 6 and 9. Try again.");
       }
     }
     while(true) {
-      
-    }
+      System.out.println("Give me a number less than 6 or greater than 9");
+      in3 = reader.nextInt();
+
+      if(in3<6 || in3>9) {
+        break;
+      } else {
+        System.out.println("Ooops, that's not less than 6 or greater than 9. Try again.");
+      }
+    }      
+    
 	}
 }
