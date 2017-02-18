@@ -8,8 +8,11 @@ public class Quiz {
     // Part 1
     while (true) {
      System.out.println("2+2=4?");
+     op1 = reader.nextBoolean();
      System.out.println("2+3=5?");
+     op2 = reader.nextBoolean();
      System.out.println("2+5=18?");
+     op3 = reader.nextBoolean();
     }
 	}
 }
