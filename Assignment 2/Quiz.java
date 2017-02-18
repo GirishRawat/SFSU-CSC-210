@@ -13,6 +13,11 @@ public class Quiz {
      op2 = reader.nextBoolean();
      System.out.println("2+5=18?");
      op3 = reader.nextBoolean();
+
+     if (op1==true && op2==true && op3==false) {
+       System.out.println("Yo!");
+     }
+
     }
 	}
 }
