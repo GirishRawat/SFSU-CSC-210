@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Quiz {
 	public static void main (String[] args) {
     boolean op1, op2, op3;
+    int in1, in2, in3;
     Scanner reader = new Scanner(System.in);
 
     // Part 1
@@ -15,9 +16,28 @@ public class Quiz {
      op3 = reader.nextBoolean();
 
      if (op1==true && op2==true && op3==false) {
-       System.out.println("Yo!");
+       break;
+     } else {
+       System.out.println("Oops! You answered at least one of the questions wrong. Try again.");
+       break;
      }
-
     }
+
+    while(true) {
+      System.out.println("Give me a number less than 15");
+      in1 = reader.nextInt();
+
+      if(in1<15) {
+        break;
+      } else {
+        System.out.println("Ooops, that's not less than 15!");
+      }
+    }
+    //while(true) {
+      
+    //}
+    //while(true) {
+      
+    //}
 	}
 }
